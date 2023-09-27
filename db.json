@@ -2,7 +2,7 @@
   "transactions": [
     {
       "description": "Salario Luan",
-      "price": 1500,
+      "price": 2500,
       "category": "Salario",
       "type": "income",
       "createdAt": "2023-09-27T12:11:40.353Z",

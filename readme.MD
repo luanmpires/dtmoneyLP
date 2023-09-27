@@ -3,9 +3,9 @@
 </p>
 
 <p align="center" margin-top="25px" >
-  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/luanmpires/DTMoney" />
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/luanmpires/dtmoneyLP" />
 
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/luanmpires/DTMoney" />
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/luanmpires/dtmoneyLP" />
 </p>
 
 
@@ -45,7 +45,7 @@ ___
 Clone o projeto para o local desejado em seu computador.
 
 ```bash
-$ git clone git@github.com:luanmpires/dtmoney.git
+$ git clone git@github.com:luanmpires/dtmoneyLP.git
 ```
 ___
 
@@ -53,7 +53,7 @@ ___
 ```bash
 
 # Navegue até o diretório
-$ cd dtmoney
+$ cd dtmoneyLP
 
 # Instale as dependências necessárias
 $ npm install
@@ -73,13 +73,13 @@ O BackEnd roda nativamente através do meu servidor JSON. Caso deseje rodar ele 
 ```bash
 
 # Navegue até o diretório
-$ cd DTMoney/src/lib
+$ cd dtmoneyLP/src/lib
 
 # Abra o arquivo AXIOS.TS que está no diretório acima
 
 # Faça a inversão dos itens que ficam comentados, de modo que os endereços ficarão assim:
 baseURL: 'http://localhost:3000',
-// baseURL: 'https://my-json-server.typicode.com/luanmpires/dtmoney',
+// baseURL: 'https://my-json-server.typicode.com/luanmpires/dtmoneyLP',
 
 # Então inicie o servidor do BackEnd
 $ npm run dev:server
