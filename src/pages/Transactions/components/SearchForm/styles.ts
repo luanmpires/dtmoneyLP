@@ -43,4 +43,13 @@ export const SearchFormContainer = styled.form`
       transition: background-color 0.2s, color 0.2s, border-color 0.2s;
     }
   }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    input {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
 `

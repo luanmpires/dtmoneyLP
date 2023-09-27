@@ -3,7 +3,8 @@ import * as Dialog from '@radix-ui/react-dialog'
 import * as RadioGroup from '@radix-ui/react-radio-group'
 
 export const Overlay = styled(Dialog.Overlay)`
-  position: fixed;
+  display: flex;
+  flex: content;
   width: 100vw;
   height: 100vh;
   inset: 0;
@@ -20,6 +21,12 @@ export const Content = styled(Dialog.Content)`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  @media (max-width: 768px) {
+    min-width: auto;
+    width: 90%;
+    padding: 1.5rem;
+  }
 
   form {
     margin-top: 2rem;
@@ -59,6 +66,13 @@ export const Content = styled(Dialog.Content)`
       &:not(:disabled):hover {
         background: ${(props) => props.theme['green-700']};
         transition: background-color 0.2s;
+      }
+
+      @media (max-width: 768px) {
+        /* Estilos para telas menores (exemplo: dispositivos móveis) */
+        height: 40px;
+        padding: 0.75rem;
+        font-size: 14px;
       }
     }
   }
