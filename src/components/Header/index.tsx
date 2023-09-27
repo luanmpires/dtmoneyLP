@@ -5,14 +5,10 @@ import logoImg from '../../assets/logo.svg'
 import { NewTransactionModal } from '../NewTransactionModal'
 
 export function Header() {
-  function refreshPage() {
-    window.location.reload()
-  }
-
   return (
     <HeaderContainer>
       <HeaderContent>
-        <img src={logoImg} alt="" onClick={refreshPage} />
+        <img src={logoImg} alt="" />
 
         <Dialog.Root>
           <Dialog.Trigger asChild>
