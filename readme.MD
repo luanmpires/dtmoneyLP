@@ -1,11 +1,11 @@
 <p align="center">
-  <h1 align="center"><a href="https://ignite-dt-money.netlify.app/">DT Money :rocket: </a></h1>
+  <h1 align="center"><a href="https://dtmoneylp.vercel.app/">DT Money :rocket: </a></h1>
 </p>
 
 <p align="center" margin-top="25px" >
-  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/andreviapiana/DTMoney" />
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/luanmpires/DTMoney" />
 
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/andreviapiana/DTMoney" />
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/luanmpires/DTMoney" />
 </p>
 
 
@@ -45,7 +45,7 @@ ___
 Clone o projeto para o local desejado em seu computador.
 
 ```bash
-$ git clone git@github.com:andreviapiana/DTMoney.git
+$ git clone git@github.com:luanmpires/dtmoney.git
 ```
 ___
 
@@ -53,7 +53,7 @@ ___
 ```bash
 
 # Navegue até o diretório
-$ cd DTMoney
+$ cd dtmoney
 
 # Instale as dependências necessárias
 $ npm install
@@ -79,7 +79,7 @@ $ cd DTMoney/src/lib
 
 # Faça a inversão dos itens que ficam comentados, de modo que os endereços ficarão assim:
 baseURL: 'http://localhost:3000',
-// baseURL: 'https://my-json-server.typicode.com/andreviapiana/dtmoney',
+// baseURL: 'https://my-json-server.typicode.com/luanmpires/dtmoney',
 
 # Então inicie o servidor do BackEnd
 $ npm run dev:server
@@ -88,11 +88,11 @@ $ npm run dev:server
 ___
 
 
-[O resultado FINAL pode ser visto aqui](https://ignite-dt-money.netlify.app/)
+[O resultado FINAL pode ser visto aqui](https://dtmoneylp.vercel.app/)
 
 ___
 
 
-Made with ❤️ by André Viapiana 👋🏽 [Get in Touch!](https://www.linkedin.com/in/andreviapiana/)
+Made with ❤️ by Luan Pires 👋🏽 [Get in Touch!](https://www.linkedin.com/in/luanmpires/)
 
 ---
